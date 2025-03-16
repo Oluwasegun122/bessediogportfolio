@@ -1,6 +1,7 @@
-import AboutMe from "./component/AboutMe";
-import Footer from "./component/Footer";
-import Projects from "./component/Projects";
+// import AboutMe from "./AboutMe";
+// import Footer from "./Footer";
+// import Header from "./Header";
+// import Projects from "./Projects";
 
 export default function HomePage() {
   return (
@@ -20,8 +21,9 @@ export default function HomePage() {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
             <p className="mb-5">
-              I use cutting-edge tools and techniques to turn complex data sets
-              into actionable insights.
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
             </p>
             <button className="btn btn-primary">Get Started</button>
           </div>
@@ -40,7 +42,7 @@ export default function HomePage() {
       </div>
       {/* cards */}
 
-      <div className="my-10 flex flex-col items-center px-5">
+      <div className="my-10 flex flex-col items-center">
         <h2 className="text-4xl font-extrabold tracking-wider uppercase text-gray-800 relative inline-block">
           Projects
           <span className="absolute left-1/2 transform -translate-x-1/2 -bottom-2 h-1 w-16 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full"></span>
@@ -48,16 +50,6 @@ export default function HomePage() {
       </div>
 
       <Projects />
-
-      <div>
-        <div className="my-10 flex flex-col items-center">
-          <h2 className="text-4xl font-extrabold tracking-wider uppercase text-gray-800 relative inline-block">
-            Certificate
-            <span className="absolute left-1/2 transform -translate-x-1/2 -bottom-2 h-1 w-16 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full"></span>
-          </h2>
-        </div>
-        Certificate
-      </div>
       {/* footer */}
       <Footer />
     </div>
