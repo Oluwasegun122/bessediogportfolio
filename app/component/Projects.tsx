@@ -4,7 +4,7 @@ export default function Projects() {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 px-5">
       <div className="card bg-base-100 w-96 shadow-xl ring-1 ring-offset-indigo-600">
         <figure className="px-10 pt-10">
-          <img src="/images/project.jpg" alt="Shoes" className="rounded-xl" />
+          <img src="/project.jpg" alt="Shoes" className="rounded-xl" />
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">Project Name</h2>
